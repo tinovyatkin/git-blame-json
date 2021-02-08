@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/tinovyatkin/git-blame-json/issues"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/index.js",
   "files": [
     "dist/index.d.ts"
@@ -23,7 +23,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "camel-case": "4.1.1"
+    "camel-case": "4.1.2"
   },
   "devDependencies": {
     "@types/jest": "latest",
