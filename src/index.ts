@@ -28,10 +28,10 @@ interface LineInfo {
   authorMail: string;
   authorTime: number;
   authorTz: string;
-  commiter: string;
-  commiterMail: string;
-  commiterTime: number;
-  commiterTz: string;
+  committer: string;
+  committerMail: string;
+  committerTime: number;
+  committerTz: string;
   summary: string;
   previous: string;
   filename: string;
