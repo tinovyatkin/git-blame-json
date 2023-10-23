@@ -13,7 +13,7 @@ jobs:
         with:
           fetch-depth: 100
           submodules: true
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
           node-version: 12
       - name: Cache node modules
@@ -37,7 +37,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
           node-version: 12
       - name: Cache node modules
@@ -60,7 +60,7 @@ jobs:
         with:
           fetch-depth: 100
           submodules: true
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org/
